@@ -1,0 +1,51 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="tr">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <meta name="google-site-verification" content="X4Mn8DSVrAq00AZo57kBm9_JP8cJha4YzYB2-65plHM" />
+  </head>
+  <body>
+    <Header />
+    <main style="max-width: 800px; margin: 0 auto; padding: 2rem;">
+      <h1>Kahramanmaraş Depremi: Gerçekler, Etkiler ve Son Gelişmeler</h1>
+      <p>
+        6 Şubat 2023 tarihinde Kahramanmaraş ve çevresinde meydana gelen deprem, milyonlarca insanın yaşamını etkiledi. Bu makalede,
+        deprem öncesi hazırlıklar, deprem anı yaşananlar ve sonrasında yürütülen kurtarma çalışmaları hakkında güncel bilgiler verilmektedir.
+      </p>
+      <h2>Depremin Özeti</h2>
+      <p>
+        Kahramanmaraş merkezli bu deprem, Richter ölçeğine göre 7.8 büyüklüğünde ölçüldü. Bölgedeki yoğun nüfus ve zemin yapısı,
+        yıkımın boyutunu artırırken, kurtarma ekipleri 24 saat kesintisiz çalışarak can kaybını en aza indirmeye çalıştı.
+      </p>
+      <h2>Hazırlık ve Acil Durum Çalışmaları</h2>
+      <p>
+        Deprem öncesi alınan önlemler ve acil durum planları, can ve mal kayıplarını azaltmada önemli rol oynadı.
+        Belediyeler, AFAD ve gönüllü kuruluşlar, kurtarma operasyonlarını koordine etmek için bir araya geldi.
+        Ayrıca, uluslararası yardım kuruluşları da bölgeye destek gönderdi.
+      </p>
+      <h2>Etkiler ve Son Durum</h2>
+      <p>
+        Depremin etkileri sadece binaların yıkılmasıyla sınırlı kalmadı; altyapı, ulaşım ve sağlık hizmetleri de büyük ölçüde zarar gördü.
+        Yapılan güncel değerlendirmelere göre, bölgede halen kurtarma ve yeniden yapılandırma çalışmaları devam ediyor.
+        Uzmanlar, uzun vadeli iyileşme sürecinde psikolojik destek ve ekonomik yardımın da önemli olacağını belirtiyor.
+      </p>
+      <h2>Geleceğe Yönelik Öneriler</h2>
+      <p>
+        Uzmanlar, benzer felaketlerin önüne geçebilmek adına, depreme dayanıklı yapı standartlarının
+        artırılmasını ve erken uyarı sistemlerinin geliştirilmesini öneriyor. Ayrıca, toplumun deprem bilinci konusunda bilinçlendirilmesi
+        ve düzenli tatbikatlarla hazırlıklı olunması büyük önem taşıyor.
+      </p>
+      <p>
+        Bu makale, Kahramanmaraş depremi ile ilgili güncel bilgileri özetlemekte olup, bölgedeki gelişmeler yakından takip edilmektedir.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
